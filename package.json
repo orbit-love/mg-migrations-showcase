@@ -1,0 +1,27 @@
+{
+  "name": "panoramica-core",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "task": "NODE_ENV=task node task.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fast-glob": "^3.3.1",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "neo4j-driver": "^5.12.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0"
+  }
+}

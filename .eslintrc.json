@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2022
+  },
+  "plugins": ["mocha", "prettier"],
+  "env": {
+    "mocha": true,
+    "node": true,
+    "es2021": true
+  },
+  "rules": {
+    "no-useless-escape": "off",
+    "prettier/prettier": ["error"]
+  }
+}
