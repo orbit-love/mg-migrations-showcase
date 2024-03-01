@@ -9,7 +9,7 @@ export default {
 `;
 
 export default {
-  name: "migrate:gen",
+  name: "migrate:new",
   desc: "Generates a new migration",
   async run(args) {
     if (process.env.NODE_ENV === "production") {
