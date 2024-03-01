@@ -40,6 +40,8 @@ export default {
 
 You'll just have to fill the `desc` field, as well as the `up` and `down` functions. Always keep in mind performance when doing so. If you are performing multiple writes at once, it's a good idea to batch them in a transaction.
 
+### Run
+
 ```sh
 yarn task migrate:up
 ```
